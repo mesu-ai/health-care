@@ -31,7 +31,7 @@ const Header = () => {
             <Nav className="me-auto d-flex align-items-center">
 
             <NavLink activeClassName="active" className="navlink" to='/home'>Home</NavLink>
-            <NavLink activeClassName="active" className="navlink" to='/services'>Service</NavLink>
+            <NavLink activeClassName="active" className="navlink" to='/services'>Services</NavLink>
             <NavLink activeClassName="active" className="navlink" to='/aboutus'>About Us</NavLink>
 
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">

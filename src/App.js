@@ -10,6 +10,7 @@ import Services from './components/services/Services';
 import About from './components/about/About';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
+import ServiceDetails from './components/servicedetails/ServiceDetails';
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
 
         <Route path='/services'>
         <Services></Services>
+        </Route>
+
+        <Route path='/servicedetails'>
+          <ServiceDetails></ServiceDetails>
         </Route>
 
         <Route path='/aboutus'>
