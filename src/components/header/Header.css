@@ -1,0 +1,32 @@
+.navlink{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+.navlink:hover{
+    color:red;
+   
+    
+}
+
+.brand-name{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.navbar-toggler-icon{
+    background-color: cyan;
+
+}
+
+.active{
+    background-color:#198754;
+    color: white;
+    border-radius: 5px 8px;
+    padding: 5px;
+}
