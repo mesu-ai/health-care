@@ -6,7 +6,7 @@ import brand from '../../image/heartlogo.png';
 
 const Header = () => {
     return (
-        <div>
+
 
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
         <Container>
@@ -46,8 +46,7 @@ const Header = () => {
         </Navbar.Collapse>
         </Container>
         </Navbar>
-                    
-        </div>
+                
     );
 };
 
