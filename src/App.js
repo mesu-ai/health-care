@@ -9,6 +9,7 @@ import Header from './components/header/Header';
 import Services from './components/services/Services';
 import About from './components/about/About';
 import Login from './components/login/Login';
+import Register from './components/register/Register';
 
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
         
         <Route path='/login'>
           <Login></Login>
+        </Route>
+
+        <Route path='/register'>
+          <Register></Register>
         </Route>
 
         <Route exact path='/'>

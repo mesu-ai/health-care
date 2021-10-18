@@ -6,8 +6,7 @@
    
 }
 .navlink:hover{
-    color:red;
-   
+    color:tomato;
     
 }
 
@@ -27,6 +26,6 @@
 .active{
     background-color:#198754;
     color: white;
-    border-radius: 5px 8px;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 5px 8px;
 }

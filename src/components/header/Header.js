@@ -3,15 +3,17 @@ import './Header.css';
 import { Container, Nav, Navbar} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import brand from '../../image/heartlogo.png';
+import useFirebase from '../../hooks/useFirebase';
 
 const Header = () => {
+   const {user,logOut}= useFirebase();
     return (
 
 
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
         <Container>
 
-        {/* <Navbar.Brand className="brand-name" to='/home'>Heart-Care</Navbar.Brand> */}
+        
         <Navbar.Brand className="d-flex align-items-center">
             <img
                 src={brand}
@@ -41,7 +43,15 @@ const Header = () => {
             </NavDropdown> */}
             </Nav>
             <Nav className="d-flex align-items-center">
-            <NavLink className="navlink" to='login'>Login</NavLink>
+                <p className="m-3">{user.displayName}</p>
+
+                {!user.email?
+                <NavLink className="navlink" to='login'>Login</NavLink>:
+                <button onClick={logOut} className="btn btn-danger">Logout</button>
+
+                }
+
+
             </Nav>
         </Navbar.Collapse>
         </Container>
