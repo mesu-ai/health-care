@@ -15,6 +15,10 @@
     font-size: 30px;
 
 }
+.phone-number{
+    color: yellow;
+    font-weight: bold;
+}
 .service-card:hover .phone-number{
     color: navy;
     font-size: 20px;
@@ -24,5 +28,12 @@
 .service-card:hover .service-cost{
     color: crimson;
     font-weight: bold;
+
+}
+
+.allservice-card:hover{
+    background-color: crimson;
+    color: white;
+
 
 }
