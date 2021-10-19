@@ -34,17 +34,14 @@ const Header = () => {
             <NavLink activeClassName="active" className="navlink" to='/services'>Services</NavLink>
             <NavLink activeClassName="active" className="navlink" to='/aboutus'>About Us</NavLink>
 
-            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item to="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item to="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
+            
             </Nav>
             <Nav className="d-flex align-items-center">
-                <p className="m-3">{user.displayName}</p>
 
+                {user.email && 
+                <p className="m-3">{user.displayName}</p>
+                }
+                
                 {!user.email?
                 <NavLink className="navlink" to='login'>Login</NavLink>:
                 <button onClick={logOut} className="btn btn-danger">Logout</button>
