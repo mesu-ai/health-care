@@ -6,18 +6,20 @@ import Home from './components/home/Home';
 import NotFind from './components/notfind/NotFind';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import Services from './components/services/Services';
 import About from './components/about/About';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
 import ServiceDetails from './components/servicedetails/ServiceDetails';
-import DetailsPeovider from './contex/DetailsPeovider';
 import AllServices from './components/services/AllServices';
+import AuthPeovider from './contex/AuthPeovider';
+import PrivateRoute from './privateroute/PrivateRoute';
 
 
 function App() {
   return (
     <div className="App">
+
+      <AuthPeovider>
 
       <BrowserRouter>
       <Header></Header>
@@ -31,9 +33,9 @@ function App() {
         <AllServices></AllServices>
         </Route>
 
-        <Route path='/service/:serviceId'>
+        <PrivateRoute path='/service/:serviceId'>
           <ServiceDetails></ServiceDetails>
-        </Route>
+        </PrivateRoute>
 
         <Route path='/aboutus'>
           <About></About>
@@ -58,6 +60,8 @@ function App() {
       </Switch>
       <Footer></Footer>
       </BrowserRouter>
+
+      </AuthPeovider>
   
 
 

@@ -13,7 +13,7 @@ const Service = (props) => {
         history.push(url);
 
     }
-    
+
     return (
         <Col>
             <Card style={{backgroundColor:'#f1f1f1'}} className="h-100 ">
@@ -26,7 +26,7 @@ const Service = (props) => {
                 <Card.Text> Potential Cost: {potential_cost} </Card.Text>
                     
                 
-                <Button onClick={serviceHandele} className="btn btn-primary">See Details</Button>
+                <Button onClick={serviceHandele} className="btn btn-primary">Book An Appointment</Button>
                 
                
                 </Card.Body>
