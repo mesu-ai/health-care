@@ -1,0 +1,28 @@
+.service-card{
+    background-color: crimson;
+    color: white;
+
+}
+
+.service-card:hover{
+    background-color: cornsilk;
+    color: black;
+
+}
+
+.service-card:hover .service-title{
+    color: red;
+    font-size: 30px;
+
+}
+.service-card:hover .phone-number{
+    color: navy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service-card:hover .service-cost{
+    color: crimson;
+    font-weight: bold;
+
+}

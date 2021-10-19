@@ -1,4 +1,4 @@
-
+import './Service.css';
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
@@ -16,14 +16,14 @@ const Service = (props) => {
 
     return (
         <Col>
-            <Card style={{backgroundColor:'#f1f1f1'}} className="h-100 ">
+            <Card  className="h-100 service-card">
                 <Card.Img variant="top" src={picture} width="100%" height="200" />
                 <Card.Body>
-                <Card.Title className="text-danger">{title}</Card.Title>
+                <Card.Title className="service-title">{title}</Card.Title>
                
-                <Card.Text> <i className="fas fa-phone-square-alt fa-lg text-success"></i>  <span className="text-success">{call_for_appoinment}</span> </Card.Text>
+                <Card.Text> <i className="fas fa-phone-square-alt fa-lg text-success"></i>  <span className="phone-number">{call_for_appoinment}</span> </Card.Text>
                 
-                <Card.Text> Potential Cost: {potential_cost} </Card.Text>
+                <Card.Text className=" fs-5"> Potential Cost: $ <span className="service-cost">{potential_cost}</span>  </Card.Text>
                     
                 
                 <Button onClick={serviceHandele} className="btn btn-primary">Book An Appointment</Button>
