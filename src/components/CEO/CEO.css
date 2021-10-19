@@ -1,0 +1,11 @@
+
+/* Font Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.ceo-sign{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(5, 5, 143);
+
+
+}

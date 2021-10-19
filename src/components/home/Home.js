@@ -1,5 +1,7 @@
 import React from 'react';
 import Banner from '../banner/Banner';
+import CEO from '../CEO/CEO';
+import Contract from '../contract/Contract';
 import Services from '../services/Services';
 
 
@@ -12,6 +14,9 @@ const Home = () => {
         </div>   
         
         <Services></Services>
+        <CEO></CEO>
+
+        <Contract></Contract>
 
 
 

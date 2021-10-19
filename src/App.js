@@ -13,6 +13,7 @@ import ServiceDetails from './components/servicedetails/ServiceDetails';
 import AllServices from './components/services/AllServices';
 import AuthPeovider from './contex/AuthPeovider';
 import PrivateRoute from './privateroute/PrivateRoute';
+import Contract from './components/contract/Contract';
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
 
         <Route path='/aboutus'>
           <About></About>
+        </Route>
+
+        <Route path='/contract'>
+          <Contract></Contract>
         </Route>
         
         <Route path='/login'>

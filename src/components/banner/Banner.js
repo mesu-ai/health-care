@@ -29,7 +29,7 @@ const Banner = () => {
       
       
       </Col>
-    </Row>
+       </Row>
 
     );
 };
