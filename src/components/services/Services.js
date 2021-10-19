@@ -1,25 +1,28 @@
 import Button from '@restart/ui/esm/Button';
-import React, { useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router';
+import useDetails from '../../hooks/useDetails';
 import useService from '../../hooks/useService';
 import Service from '../service/Service';
+import ServiceDetails from '../servicedetails/ServiceDetails';
+
+
+
 
 const Services = () => {
-   const [services,setServices]= useService();
-   const [details,setDetails]=useState([]);
-
-//    const history= useHistory();
-
-//    console.log(services);
-
-//    const url='/servicedetails';
-    const serviceHandeler=(id)=>{
-        // history.push(url);
-
-       
+//    const [services,setServices]= useService();
+   const [services]= useDetails();
+   
 
 
+   console.log(services);
+
+
+    const serviceHandeler=(serviceId)=>{
+        // console.log(serviceId);
+        ServiceDetails(serviceId);
+        
 
     }
 
@@ -31,7 +34,10 @@ const Services = () => {
                        
                    </Service>
                )}
-            </Row>  
+            </Row> 
+
+            
+
         </Container>
     );
 };

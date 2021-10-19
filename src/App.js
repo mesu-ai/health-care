@@ -11,11 +11,14 @@ import About from './components/about/About';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
 import ServiceDetails from './components/servicedetails/ServiceDetails';
+import DetailsPeovider from './contex/DetailsPeovider';
 
 
 function App() {
   return (
     <div className="App">
+
+      <DetailsPeovider>
 
       <BrowserRouter>
       <Header></Header>
@@ -57,6 +60,10 @@ function App() {
       <Footer></Footer>
       </BrowserRouter>
       
+      </DetailsPeovider>
+
+
+   
     </div>
   );
 }
