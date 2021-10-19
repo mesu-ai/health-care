@@ -16,19 +16,19 @@ const ServiceDetails = () => {
     
     return (
 
-        <Card style={{backgroundColor:'#f1f1f1'}} className=" container my-5">
+        <Card style={{backgroundColor:'#f1f1f1'}} className=" container my-5 p-5">
             <Card.Img variant="top" src={service?.picture} width="100%" height="200" />
             <Card.Body>
             <Card.Title className="text-danger fs-3">{service?.title}</Card.Title>
            
-            <Card.Text> <i className="fas fa-phone-square-alt fa-lg text-success"></i>  <span className="text-success">{service?.call_for_appoinment}</span> </Card.Text>
+            <Card.Text className="fs-4"> <i className="fas fa-phone-square-alt fa-lg text-success"></i>  <span className="text-success">{service?.call_for_appoinment}</span> </Card.Text>
             
-            <Card.Text> Potential Cost: {service?.potential_cost} </Card.Text>
+            <Card.Text className="fs-4"> Potential Cost: $ <span className="text-danger fw-bold">{service?.potential_cost}</span> </Card.Text>
 
             <Card.Text> Potential Cost: {service?.details} </Card.Text>
 
             
-            <div style={{backgroundColor:"whitesmoke"}} className="row d-flex flex-lg-row flex-column justify-content-lg-around">
+            <div className="row d-flex flex-lg-row flex-column justify-content-lg-around">
 
             { 
                 service?.specialist.map(specialist=><Specialist specialist={specialist} key={Math.random()}></Specialist>)

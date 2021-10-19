@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 
 const Details = (props) => {
 
-    const {title,picture,call_for_appoinment,potential_cost}= props.service;
+    const {title,picture,call_for_appoinment}= props.service;
 
     return (
         <Col>
@@ -14,8 +14,6 @@ const Details = (props) => {
             <Card.Title className="text-danger">{title}</Card.Title>
            
             <Card.Text> <i className="fas fa-phone-square-alt fa-lg text-success"></i>  <span className="text-success">{call_for_appoinment}</span> </Card.Text>
-            
-            <Card.Text> Potential Cost: {potential_cost} </Card.Text>
             
            
             </Card.Body>

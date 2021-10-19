@@ -12,6 +12,7 @@ import Login from './components/login/Login';
 import Register from './components/register/Register';
 import ServiceDetails from './components/servicedetails/ServiceDetails';
 import DetailsPeovider from './contex/DetailsPeovider';
+import AllServices from './components/services/AllServices';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         </Route>
 
         <Route path='/services'>
-        <Services></Services>
+        <AllServices></AllServices>
         </Route>
 
         <Route path='/service/:serviceId'>

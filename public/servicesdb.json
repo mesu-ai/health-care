@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "potential_cost": "$3,863",
+      "potential_cost": "3,863",
       "picture": "https://www.verywellhealth.com/thmb/Fg_2Azs_RB266n_9kEjDqIl2qTI=/2127x1409/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-681448917-bf98662cadb942ff98bfd7e2e133dad6.jpg",
       "title": "Heart surgery",
       "call_for_appoinment": "+88 (967) 443-2787",
@@ -29,7 +29,7 @@
     },
     {
       "id": 2,
-      "potential_cost": "$3,154",
+      "potential_cost": "3,154",
       "picture": "https://www.getinge.com/siteassets/solutions-c2.0/cardiovascular-procedures/beating-heart-surgery---off-pump/beating-heart-surgery-750x500.jpg",
       "title": "Heart Transplant",
       "call_for_appoinment": "+88 (876) 519-2879",
@@ -58,7 +58,7 @@
     },
     {
       "id": 3,
-      "potential_cost": "$2,147",
+      "potential_cost": "2,147",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuOSod8hYjHoh97Fi3NIwvsMIXBGZGezYE3Q&usqp=CAU",
       "title": "Valve prolapse",
       "call_for_appoinment": "+88 (957) 454-3368",
@@ -84,7 +84,7 @@
     },
     {
       "id":4,
-      "potential_cost": "$2,216",
+      "potential_cost": "2,216",
       "picture": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/10/53/hb7_mitralprolapsethu_jpg.jpg",
       "title": "Valve diseases",
       "call_for_appoinment": "+88 (968) 461-3898",
@@ -109,7 +109,7 @@
     },
     {
       "id":5,
-      "potential_cost": "$2,244",
+      "potential_cost": "2,244",
       "picture": "http://www.secondscount.org/image.axd?id=dd6ebdce-4ebb-453e-bd05-a435b1966980&t=635820725652970000",
       "title": "Pacemaker",
       "call_for_appoinment": "+88 (984) 546-3464",
@@ -134,7 +134,7 @@
     },
     {
       "id":6,
-      "potential_cost": "$2,431",
+      "potential_cost": "2,431",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Y-HoaKR1ARl4sa6bRCHn8eFAZRWJKHSRGw&usqp=CAU",
       "title": "Peripheral artery angioplasty",
       "call_for_appoinment": "+88 (971) 553-3508",
