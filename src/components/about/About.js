@@ -5,7 +5,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <Row style={{height:'540px'}} className="row row-cols-lg-2 row-cols-md-2 row-cols-1 d-flex justify-content-between align-items-center container mx-auto">
+        <Row style={{height:'',margin:'120px 0px'}} className="row row-cols-lg-2 row-cols-md-2 row-cols-1 d-flex justify-content-between align-items-center container mx-auto">
           <Col >
               <img className="img-fluid" src={about} alt="" />
           
