@@ -6,11 +6,13 @@ const useService=()=>{
     
     useEffect(()=>{
 
-        fetch('./servicesdb.json')
+        fetch("/servicesdb.json")
         .then(res=>res.json())
         .then(data=>setServices(data));
 
     },[]);
+
+    
 
     return [services,setServices];
 

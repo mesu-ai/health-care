@@ -1,6 +1,6 @@
 [
     {
-      "id": "616da9a3307495d7148c0c47",
+      "id": 1,
       "potential_cost": "$3,863",
       "picture": "https://www.verywellhealth.com/thmb/Fg_2Azs_RB266n_9kEjDqIl2qTI=/2127x1409/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-681448917-bf98662cadb942ff98bfd7e2e133dad6.jpg",
       "title": "Heart surgery",
@@ -8,21 +8,27 @@
       "details": "According to the National Heart, Lung, and Blood Institute (NHLBI), coronary artery bypass grafting (CABG) is the most common type of heart surgery done on adults. During this surgery, a healthy artery or vein is grafted (attached) to a blocked coronary artery. This allows the grafted artery to “bypass” the blocked artery and bring fresh blood to the heart.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Blair Boyer"
+          
+          "name": " Dr. Blair Boyer",
+          "specialties":"Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png"
         },
         {
-          "id": 1,
-          "name": "Chavez Shields"
+          
+          "name": " Dr. Chavez Shields",
+          "specialties":"Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15988.png"
         },
         {
-          "id": 2,
-          "name": "Jenkins Valentine"
+          
+          "name": " Dr. Jenkins Valentine",
+          "specialties": "Pharmacology, Gastroenterology ,Cardiac-Radiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16043.png"
         }
       ]
     },
     {
-      "id": "616da9a3c9a2ad7e9ae26dbf",
+      "id": 2,
       "potential_cost": "$3,154",
       "picture": "https://www.getinge.com/siteassets/solutions-c2.0/cardiovascular-procedures/beating-heart-surgery---off-pump/beating-heart-surgery-750x500.jpg",
       "title": "Heart Transplant",
@@ -30,21 +36,28 @@
       "details": "A heart transplant is a surgical procedure used to treat the most serious cases of heart disease. This is a treatment option for people who are in the end stages of heart failure. Medication, lifestyle changes, and less invasive procedures haven’t succeeded. People must meet specific criteria to be considered a candidate for the procedure.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Lorraine Doyle"
+          
+          "name": " Dr. Lorraine Doyle",
+          "specialties": "Pharmacology, Gastroenterology ,Cardiac-Radiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15988.png"
+
         },
         {
-          "id": 1,
-          "name": "Chen Graves"
+          
+          "name": " Dr. Chen Graves",
+          "specialties": "Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16034.png"
         },
         {
-          "id": 2,
-          "name": "Marguerite Jensen"
+          
+          "name": " Dr. Marguerite Jensen",
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEd8_agDBYJ691st0mlRpUDyu2V26rTQuVMw&usqp=CAU"
         }
       ]
     },
     {
-      "id": "616da9a30c654c3fd85ffd9d",
+      "id": 3,
       "potential_cost": "$2,147",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuOSod8hYjHoh97Fi3NIwvsMIXBGZGezYE3Q&usqp=CAU",
       "title": "Valve prolapse",
@@ -52,21 +65,25 @@
       "details": "You have two chambers on the left side of your heart: your left atrium and your left ventricle. Your mitral valve, which is located between the two, is designed to allow blood to flow into the left ventricle but blocked from flowing back into the left atrium.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Karen Haynes"
+          
+          "name": " Dr. Karen Haynes",
+          "specialties":"Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16036.png"
         },
         {
-          "id": 1,
-          "name": "Jacobs Norton"
+          "specialties": "Cardiac-Anaesthesiology,Cardiology",
+          "name": " Dr. Jacobs Norton",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16022.png"
         },
         {
-          "id": 2,
-          "name": "Jackson Morgan"
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "name": " Dr. Jackson Morgan",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16034.png"
         }
       ]
     },
     {
-      "id": "616da9a31f1c17c116020a9b",
+      "id":4,
       "potential_cost": "$2,216",
       "picture": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/10/53/hb7_mitralprolapsethu_jpg.jpg",
       "title": "Valve diseases",
@@ -74,21 +91,24 @@
       "details": "Heart valve disorders can affect any of the valves in your heart. Your heart valves have flaps that open and close with each heartbeat, allowing blood to flow through the heart’s upper and lower chambers and to the rest of your body. The upper chambers of the heart are the atria, and the lower chambers of the heart are the ventricles.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Mason Hampton"
+          "name": " Dr. Mason Hampton",
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16009.png"
         },
         {
-          "id": 1,
-          "name": "Park Talley"
+          "name": " Dr. Park Talley",
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16007.png"
         },
         {
-          "id": 2,
-          "name": "Parks Jacobson"
+          "name": " Dr. Parks Jacobson",
+          "specialties": "Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG16006.png"
         }
       ]
     },
     {
-      "id": "616da9a3b4f840aeaef722c5",
+      "id":5,
       "potential_cost": "$2,244",
       "picture": "http://www.secondscount.org/image.axd?id=dd6ebdce-4ebb-453e-bd05-a435b1966980&t=635820725652970000",
       "title": "Pacemaker",
@@ -96,21 +116,24 @@
       "details": "Modern pacemakers have two parts. One part, called the pulse generator, contains the battery and the electronics that control your heartbeat. The other part is one or more leads to send electrical signals to your heart. Leads are small wires that run from the pulse generator to your heart.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Trujillo Davis"
+          "name": " Dr. Trujillo Davis",
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15996.png"
         },
         {
-          "id": 1,
-          "name": "Christie Walter"
+          "name": " Dr. Christie Walter",
+          "specialties": "Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15994.png"
         },
         {
-          "id": 2,
-          "name": "Murphy Clements"
+          "name": " Dr. Murphy Clements",
+          "specialties": "Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15985.png"
         }
       ]
     },
     {
-      "id": "616da9a35df99fe12d078ae5",
+      "id":6,
       "potential_cost": "$2,431",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Y-HoaKR1ARl4sa6bRCHn8eFAZRWJKHSRGw&usqp=CAU",
       "title": "Peripheral artery angioplasty",
@@ -118,16 +141,22 @@
       "details": "Angioplasty with stent placement is a minimally invasive procedure used to open narrow or blocked arteries. This procedure is used in different parts of your body, depending on the location of the affected artery. It requires only a small incision.\r\n",
       "specialist": [
         {
-          "id": 0,
-          "name": "Flossie Maxwell"
+          "name": " Dr. Flossie Maxwell",
+          "specialties": "Cardiology,Cardiac-Anaesthesiology,Cardiac-Radiology Neuro-Anaesthesiology and Critical Care",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15987.png"
         },
         {
-          "id": 1,
-          "name": "Lea Blake"
+          "name": " Dr. Lea Blake",
+          "specialties": "Pharmacology, Gastroenterology ,Cardiac-Radiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15972.png"
+
+          
         },
         {
-          "id": 2,
-          "name": "Merritt Crane"
+          "name": " Dr. Merritt Crane",
+          "specialties": "Psychiatry, Cardiac-Anaesthesiology,Cardiology",
+          "image":"https://pngimg.com/uploads/doctor/doctor_PNG15979.png"
+          
         }
       ]
     }

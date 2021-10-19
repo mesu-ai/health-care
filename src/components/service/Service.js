@@ -2,9 +2,17 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const Service = (props) => {
     const {id,title,picture,call_for_appoinment,potential_cost}= props.service;
+
+   const history= useHistory();
+   const url= `/service/${id}`;
+    const serviceHandele=()=>{
+        history.push(url);
+
+    }
     
     return (
         <Col>
@@ -18,7 +26,7 @@ const Service = (props) => {
                 <Card.Text> Potential Cost: {potential_cost} </Card.Text>
                     
                 
-                <Button onClick={()=>props.serviceHandeler(id)} className="btn btn-primary">See Details</Button>
+                <Button onClick={serviceHandele} className="btn btn-primary">See Details</Button>
                 
                
                 </Card.Body>

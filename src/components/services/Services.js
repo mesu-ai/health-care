@@ -11,26 +11,14 @@ import ServiceDetails from '../servicedetails/ServiceDetails';
 
 
 const Services = () => {
-//    const [services,setServices]= useService();
-   const [services]= useDetails();
-   
+   const [services]= useService();
 
-
-   console.log(services);
-
-
-    const serviceHandeler=(serviceId)=>{
-        // console.log(serviceId);
-        ServiceDetails(serviceId);
-        
-
-    }
 
     return (
         <Container>
             <Row xs={1} md={2} lg={3} className="g-4 my-5">
                {services.map(service=>
-                   <Service service={service} serviceHandeler={serviceHandeler}  key={Math.random()} >
+                   <Service service={service}  key={Math.random()} >
                        
                    </Service>
                )}

@@ -18,8 +18,6 @@ function App() {
   return (
     <div className="App">
 
-      <DetailsPeovider>
-
       <BrowserRouter>
       <Header></Header>
       <Switch>
@@ -32,7 +30,7 @@ function App() {
         <Services></Services>
         </Route>
 
-        <Route path='/servicedetails'>
+        <Route path='/service/:serviceId'>
           <ServiceDetails></ServiceDetails>
         </Route>
 
@@ -59,8 +57,7 @@ function App() {
       </Switch>
       <Footer></Footer>
       </BrowserRouter>
-      
-      </DetailsPeovider>
+  
 
 
    
