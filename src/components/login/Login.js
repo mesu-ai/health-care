@@ -13,6 +13,7 @@ const Login = () => {
     const [password,setPassword]= useState('');
     // const [user,setUser]=useState({});
     const [error,setError]=useState('');
+    const [isLoding,setLoding]=useState(true);
     
 
     const auth = getAuth();
@@ -25,11 +26,12 @@ const Login = () => {
 
 
     const handleLogin=()=>{
+        setLoding(true);
         signInUsingGoogle()
         .then(result=>{
             history.push(redirect_uri);
 
-        });
+        }).finally(()=>{setLoding(false)});
 
 
 
