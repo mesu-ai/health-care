@@ -12,7 +12,7 @@ const Login = () => {
     const [email,setEmail]= useState('');
     const [password,setPassword]= useState('');
     // const [user,setUser]=useState({});
-    const [error, setError] = useState('');
+    const [error,setError] = useState('');
     const [isLoding,setLoding]=useState(true);
     
 
@@ -24,20 +24,23 @@ const Login = () => {
 
    const redirect_uri=location.state?.from || '/home';
 
+// handle google sign in
 
-    const handleLogin=()=>{
-        setLoding(true);
-        signInUsingGoogle()
-        .then(result=>{
-            history.push(redirect_uri);
+   const handleLogin=()=>{
+    setLoding(true);
+    signInUsingGoogle()
+    .then(result=>{
+        history.push(redirect_uri);
 
-        }).finally(()=>{setLoding(false)});
+    }).catch(error=>{
+        setError(error.message);
+
+    }).finally(()=>{setLoding(false)});
 
 
+   }
 
-
-    }
-
+   
     const handleEmail=e=>{
         setEmail(e.target.value);
 
