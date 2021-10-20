@@ -26,7 +26,7 @@ const AllService = (props) => {
                 <Card.Title className="fs-3 mb-4">{title}</Card.Title>
                     
                 
-                <Button onClick={serviceHandele} className="btn btn-primary">See Details</Button>
+                <Button onClick={serviceHandele} className="btn btn-dark text-light btn-outline-success fw-normal">See Details</Button>
                 
                
                 </Card.Body>

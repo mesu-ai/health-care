@@ -12,7 +12,7 @@ const Copywrite = () => {
                 <Col className="social-icon text-lg-end">
                 <i className="fab fa-facebook-square fa-3x  text-primary"></i>
                 <i className="fab fa-linkedin fa-3x text-primary mx-2"></i> 
-                <i class="fab fa-twitter-square fa-3x text-info"></i>
+                <i className="fab fa-twitter-square fa-3x text-info"></i>
                 </Col>
             
         </div>

@@ -31,7 +31,7 @@ const Footer = () => {
                   
                   <h3>0-800-777-2331</h3>                 
                   <div className="d-flex">
-                  <i class="fas fa-mobile-alt text-danger fa-4x"></i>
+                  <i className="fas fa-mobile-alt text-danger fa-4x"></i>
                   <div className="text-lg-start ms-4">
                   <h5>24/7 EMERGENCY NUMBER</h5>
                   <p className="em-status">

@@ -1,12 +1,18 @@
 .service-card{
     background-color: crimson;
     color: white;
+    transition: all .5s ease;
+    
 
 }
 
 .service-card:hover{
+    
+    
     background-color: cornsilk;
     color: black;
+    
+    
 
 }
 
@@ -29,6 +35,10 @@
     color: crimson;
     font-weight: bold;
 
+}
+
+.allservice-card{
+    transition: all .5s ease;
 }
 
 .allservice-card:hover{

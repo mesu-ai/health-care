@@ -14,6 +14,7 @@ import AllServices from './components/services/AllServices';
 import AuthPeovider from './contex/AuthPeovider';
 import PrivateRoute from './privateroute/PrivateRoute';
 import Contract from './components/contract/Contract';
+import Appointment from './components/appointment/Appointment';
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
 
         <PrivateRoute path='/service/:serviceId'>
           <ServiceDetails></ServiceDetails>
+        </PrivateRoute>
+
+        <PrivateRoute path='/appointment'>
+          <Appointment></Appointment>
         </PrivateRoute>
 
         <Route path='/aboutus'>

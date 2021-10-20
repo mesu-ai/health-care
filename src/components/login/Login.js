@@ -13,7 +13,7 @@ const Login = () => {
     const [password,setPassword]= useState('');
     // const [user,setUser]=useState({});
     const [error,setError] = useState('');
-    const [setLoding]=useState(true);
+    const [isloding,setLoding]=useState(true);
     
 
     const auth = getAuth();

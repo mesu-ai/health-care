@@ -13,7 +13,7 @@ const Register = () => {
    const [password,setPassword]=useState('');
    const [name,setName]=useState('');
    const [error,setError]=useState('');
-   const [user,setUser]=useState({});
+   const [setUser]=useState({});
 
    const auth = getAuth();
 
@@ -93,7 +93,7 @@ const Register = () => {
         })
 
 
-    },[auth]);
+    },[auth, setUser]);
 
 
 
@@ -133,7 +133,7 @@ const Register = () => {
         </Link>
 
 
-        <p >--------------------or--------------------</p>
+        <p className="text-danger fw-bold" >OR</p>
 
         <button className="btn btn-info  mt-4">
         <i className="fab fa-google text-danger"></i> Google Sign In

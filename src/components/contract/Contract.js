@@ -10,7 +10,7 @@ const Contract = () => {
 
             <Col>
                 <Card className="h-100 p-3 card-art">
-                <p><i class="fas fa-map-marker-alt text-danger fa-4x"></i></p>
+                <p><i className="fas fa-map-marker-alt text-danger fa-4x"></i></p>
                 <h3>ADDRESS</h3>
                 <p>27th Bongobondu Avenue <br /> Dhanmondi, Dhaka</p>
                 </Card>
@@ -18,7 +18,7 @@ const Contract = () => {
 
             <Col>
                 <Card className="h-100 p-3 card-art">
-                <p><i class="fas fa-mobile-alt text-danger fa-4x"></i></p>
+                <p><i className="fas fa-mobile-alt text-danger fa-4x"></i></p>
                 <h3>CALL US</h3>
                 <p>0-800-2336-7820 <br /> 0-800-2344-6477</p>
                 </Card>
@@ -26,7 +26,7 @@ const Contract = () => {
 
             <Col>
                 <Card className="h-100 p-3 card-art">
-                <p><i class="fas fa-envelope-open-text text-danger fa-4x"></i></p>
+                <p><i className="fas fa-envelope-open-text text-danger fa-4x"></i></p>
                 <h3>WRITE TO US</h3>
                 <p>office@heartcare.com <br /> book@heartcare.com</p>
                 </Card>
@@ -34,7 +34,7 @@ const Contract = () => {
 
             <Col>
                 <Card className="h-100 p-3 card-art">
-                <p><i class="far fa-calendar-alt text-danger fa-4x"></i></p>
+                <p><i className="far fa-calendar-alt text-danger fa-4x"></i></p>
                 <h3>BOOK AN APPOINTMENT</h3>
                 <p>Click here to book an <br /> appointment at Heartcare.</p>
                 </Card>

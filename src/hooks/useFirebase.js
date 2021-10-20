@@ -53,10 +53,10 @@ const useFirebase=()=>{
     },[auth]);
 
 
-    console.log(user);
+    // console.log(user);
 
     return {
-        user,error,signInUsingGoogle,logOut,isLoding
+        user,error,signInUsingGoogle,logOut,isLoding,setError
     
     };
 
