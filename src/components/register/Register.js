@@ -13,7 +13,7 @@ const Register = () => {
    const [password,setPassword]=useState('');
    const [name,setName]=useState('');
    const [error,setError]=useState('');
-   const [setUser]=useState({});
+   const [user,setUser]=useState({});
 
    const auth = getAuth();
 
@@ -93,7 +93,7 @@ const Register = () => {
         })
 
 
-    },[auth, setUser]);
+    },[auth]);
 
 
 
