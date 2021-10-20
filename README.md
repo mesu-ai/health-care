@@ -1,34 +1,27 @@
 # Welcome to Heart Care Foundation
 
 
-
-## Live site (https://heart-care-bd.web.app/home)
+Firebase Hosting-
+## Live site : https://heart-care-bd.web.app/home
 
 
 # Site Tools:
--HTML
--CSS
--Bootsrap
--Java-Script
--React JS
--React Router
--Fontawesome Icon
--Firebase
-
-#bullet
-* Item 1
-* Item 2
-* Item 3
-  * Sub Item A
-  * Sub Item B
+* HTML
+* CSS
+* Bootsrap
+* Java-Script
+* React JS
+* React Router
+* Fontawesome Icon
+* Firebase
 
 
 # Site Description:
--Health Care Based website.
--Find latest clinical Service info.
--Helpful for booking,fees payment,doctor consulting time shedule.
--Get 24/7 online suppport.
--Not harmful or spaming site.
+* Health Care Based website.
+* Find latest clinical Service info.
+* Helpful for booking,fees payment,doctor consulting time shedule.
+* Get 24/7 emergency suppport.
+* Not harmful or spaming site.
 
 
 ## Available Scripts
