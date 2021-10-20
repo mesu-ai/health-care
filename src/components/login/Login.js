@@ -12,7 +12,7 @@ const Login = () => {
     const [email,setEmail]= useState('');
     const [password,setPassword]= useState('');
     // const [user,setUser]=useState({});
-    const [error,setError]=useState('');
+    const [error, setError] = useState('');
     const [isLoding,setLoding]=useState(true);
     
 
@@ -32,6 +32,7 @@ const Login = () => {
             history.push(redirect_uri);
 
         }).finally(()=>{setLoding(false)});
+
 
 
 
@@ -62,19 +63,16 @@ const Login = () => {
         .then((result) => { 
            
             history.push(redirect_uri);
-            // setUser(result.user);
-        })
-        .catch((error) => {
-            setError(error.massage);
+            setError('');
+            //setUser(result.user);
+        }).catch(error => {
+            setError(error.message);
+            setError(error.code);
             
         });
 
 
     }
-
-
-
-
 
 
 
@@ -91,6 +89,10 @@ const Login = () => {
                     <Form.Control onBlur={handlePassword} type="password" placeholder="Password" required />
                 </Form.Group>
 
+                <Form.Group className="mb-3 fw-bold text-danger" controlId="">
+                    <Form.Label> {error}</Form.Label>
+                </Form.Group>
+
                 <div className="d-flex justify-content-center">
                 <Button className="btn btn-primary px-4 fw-bold" type="submit">Login</Button>
 
@@ -99,13 +101,13 @@ const Login = () => {
             </Form>
 
             <Link to='/register'>
-            <button style={{backgroundColor:"#f0c14b",padding:'5px 10px',borderRadius:'5px'}} className="fw-bold m-2">Create Your Account</button>
+            <button style={{backgroundColor:"#f0c14b",padding:'5px 10px',borderRadius:'5px'}} className="fw-bold m-3">Create Your Account</button>
             </Link>
 
 
-            <p >--------------------or--------------------</p>
+            <p className="text-danger fw-bold">OR</p>
 
-            <button onClick={handleLogin} className="btn btn-info  mt-4">
+            <button onClick={handleLogin} className="btn btn-info  mt-3">
             <i className="fab fa-google text-danger"></i> Google Sign In
                 </button>
 

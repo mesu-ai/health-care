@@ -39,6 +39,7 @@ const Register = () => {
 
 
        newUserRegistration(email,password);
+       setError('');
        
     
         e.preventDefault();
@@ -54,7 +55,10 @@ const Register = () => {
             setUserName();
 
         }).catch(error=>{
-            setError(error.massage);
+            
+            setError(error.message);
+            // setError(error.code);
+
         })
 
     }
@@ -65,7 +69,9 @@ const Register = () => {
           }).then(() => {
             
           }).catch((error) => {
-            setError(error);
+            setError(error.message);
+            setError(error.code);
+            
           });
 
     }
@@ -92,18 +98,22 @@ const Register = () => {
            
             <Form.Group  className="mb-3" controlId="formGrouptText">
                 <Form.Label>Name</Form.Label>
-                <Form.Control onBlur={handleName}  type="text" placeholder="Enter Name" />
+                <Form.Control onBlur={handleName}  type="text" placeholder="Enter Name" required/>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" />
+                <Form.Control onBlur={handleEmail} type="email" placeholder="Enter email" required/>
             </Form.Group>
 
             <Form.Group className="mb-3"             controlId="formGroupPassword">
                 <Form.Label>Password</Form.Label>
-                <Form.Control onBlur={handlePassword} type="password" placeholder="Password" />
+                <Form.Control onBlur={handlePassword} type="password" placeholder="Password" required />
             </Form.Group>
+
+            <Form.Group className="mb-3 fw-bold text-danger" controlId="">
+                    <Form.Label> {error}</Form.Label>
+                </Form.Group>
 
             <div className="d-flex justify-content-center">
             <Button className="btn btn-primary px-4 fw-bold" type="submit">Register</Button>
