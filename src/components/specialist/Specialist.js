@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import './Specialist.css';
 
 const Specialist = (props) => {
     const {specialist} = props;
@@ -7,10 +8,10 @@ const Specialist = (props) => {
     return (
 
         //doctor information
-        <Card style={{backgroundColor:'wheat'}} className="col p-3 g-2 mx-1">
+        <Card className="col p-3 g-2 mx-1 shadow-lg doctor-card">
             <img className="mx-auto" src={specialist?.image} alt="" width="100" height="80" />
-            <p className="fw-bold text-primary">{specialist?.name}</p>
-            <i>{specialist?.specialties}</i>
+            <p className="fw-bold doctor-name mt-3">{specialist?.name}</p>
+            <i className="doctor-specialitis">{specialist?.specialties}</i>
             
         </Card>
     );

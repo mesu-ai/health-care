@@ -1,0 +1,20 @@
+.doctor-card{
+    background-color: honeydew;
+}
+.doctor-card:hover{
+    background-color: crimson;
+}
+
+.doctor-name{
+    color: darkblue;
+}
+.doctor-card:hover .doctor-name{
+    color: white;
+    font-size: 20px;
+
+}
+.doctor-card:hover .doctor-specialitis{
+    color: yellow;
+    font-size: 17px;
+
+}
