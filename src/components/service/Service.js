@@ -15,6 +15,8 @@ const Service = (props) => {
     }
 
     return (
+
+        // Home page service card
         <Col>
             <Card  className="h-100 service-card">
                 <Card.Img variant="top" src={picture} width="100%" height="200" />

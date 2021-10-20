@@ -4,6 +4,8 @@ import './WorkHour.css';
 
 const WorkHour = () => {
     return (
+        
+        // Hospital Out-Door Time Shedule
         <Table  striped  hover variant="" >
             {/*bordered variant="primary" */}
         <thead>

@@ -6,6 +6,8 @@ import './CEO.css';
 
 const CEO = () => {
     return (
+
+        //Heart-Care Foundation CEO info
         <Row style={{height:'',padding:'110px 0px'}} className="row row-cols-lg-2  row-cols-1 d-flex justify-content-between align-items-center container mx-auto px-0">
         
         <Col className="text-start" >

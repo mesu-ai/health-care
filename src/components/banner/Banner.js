@@ -5,6 +5,8 @@ import heart from '../../image/heart.png'
 
 const Banner = () => {
     return (
+
+      //  Home Page Banner
         <Row style={{height:'',padding:'110px 0px'}} className="row row-cols-lg-2  row-cols-1 d-flex justify-content-between align-items-center container mx-auto px-0">
         
       <Col className="text-start" >

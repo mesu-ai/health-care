@@ -5,7 +5,7 @@ import useService from '../../hooks/useService';
 import Specialist from '../specialist/Specialist';
 
 
-
+//Service details page
 const ServiceDetails = () => {
 
     const {serviceId}=useParams();

@@ -1,3 +1,5 @@
+
+
 /* font roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -39,13 +41,7 @@
      
  }
 
- @media only screen and (min-width:992px) {
-    .outdoor-shedule {
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
-    }
-     
- }
+ /* media quary for px=767 */
 
  @media only screen and (min-width:767px) {
     .outdoor-shedule {

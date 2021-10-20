@@ -4,7 +4,10 @@ import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+
+// new user register page
 const Register = () => {
+
 
    const [email,setEmail]= useState('');
    const [password,setPassword]=useState('');
@@ -15,29 +18,30 @@ const Register = () => {
    const auth = getAuth();
 
 
-
+    // get user name
     const handleName=(e)=>{
         setName(e.target.value);
         
 
     }
-
+ 
+    // get user email
     const handleEmail=(e)=>{
         setEmail(e.target.value);
         
 
     }
 
+    // get user password
     const handlePassword=(e)=>{
         setPassword(e.target.value);
 
 
     }
 
+
     const handleRegistration=(e)=>{
        console.log(name,email,password);
-
-
        newUserRegistration(email,password);
        setError('');
        
@@ -48,6 +52,7 @@ const Register = () => {
     }
 
 
+    // new user register with email and password
     const newUserRegistration=(email,password)=>{
         createUserWithEmailAndPassword(auth,email,password)
         .then(result=>{
@@ -63,6 +68,7 @@ const Register = () => {
 
     }
 
+    // update user name
     const setUserName=()=>{
         updateProfile(auth.currentUser, {
             displayName:name
@@ -76,8 +82,8 @@ const Register = () => {
 
     }
 
+    
     useEffect(()=>{
-
     onAuthStateChanged(auth,user=>{
         if(user){
             setUser(user);

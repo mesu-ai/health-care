@@ -13,7 +13,7 @@ const Login = () => {
     const [password,setPassword]= useState('');
     // const [user,setUser]=useState({});
     const [error,setError] = useState('');
-    const [isLoding,setLoding]=useState(true);
+    const [setLoding]=useState(true);
     
 
     const auth = getAuth();
@@ -25,7 +25,6 @@ const Login = () => {
    const redirect_uri=location.state?.from || '/home';
 
 // handle google sign in
-
    const handleLogin=()=>{
     setLoding(true);
     signInUsingGoogle()
@@ -37,21 +36,22 @@ const Login = () => {
 
     }).finally(()=>{setLoding(false)});
 
-
    }
 
    
+    // get user email
     const handleEmail=e=>{
         setEmail(e.target.value);
 
     }
 
+    // get uer password
     const handlePassword=e=>{
         setPassword(e.target.value);
     }
 
+    // handle user login
     const handleUserLogin=e=>{
-
         console.log(email,password);
         userLogin(email,password);
         
@@ -60,8 +60,8 @@ const Login = () => {
 
     }
 
+    // login with email-password
     const userLogin=(email,password)=>{
-
         signInWithEmailAndPassword(auth, email, password)
         .then((result) => { 
            
@@ -73,7 +73,6 @@ const Login = () => {
             setError(error.code);
             
         });
-
 
     }
 

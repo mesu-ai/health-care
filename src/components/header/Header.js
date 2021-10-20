@@ -9,11 +9,11 @@ const Header = () => {
    const {user,logOut}= useFirebase();
     return (
 
-
+        //top navigation bar
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
         <Container>
 
-        
+        {/* website brand logo info name */}
         <Navbar.Brand className="d-flex align-items-center">
             <img
                 src={brand}
@@ -25,9 +25,11 @@ const Header = () => {
            <span className="brand-name">Heart <span className="text-danger">Care</span> </span> 
         </Navbar.Brand>
 
+        {/* responsive toggle button */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="" />
         <Navbar.Collapse id="responsive-navbar-nav">
            
+           {/* navigation link */}
             <Nav className="me-auto d-flex align-items-center">
 
             <NavLink activeClassName="active" className="navlink" to='/home'>Home</NavLink>
@@ -37,6 +39,8 @@ const Header = () => {
 
             
             </Nav>
+
+            {/* user name and access button */}
             <Nav className="d-flex align-items-center">
 
                 {user.email && 

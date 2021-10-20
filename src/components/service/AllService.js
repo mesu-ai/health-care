@@ -5,7 +5,7 @@ import { Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const AllService = (props) => {
-    const {id,title,picture,call_for_appoinment}= props.service;
+    const {id,title,picture}= props.service;
 
    const history= useHistory();
    const url= `/service/${id}`;
@@ -17,6 +17,8 @@ const AllService = (props) => {
 
 
     return (
+
+        // services page card info
         <Col>
             <Card  className="h-100 allservice-card shadow-lg">
                 <Card.Img variant="top" src={picture} width="100%" height="200" />

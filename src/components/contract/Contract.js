@@ -5,6 +5,7 @@ import './Contract.css';
 const Contract = () => {
     return (
 
+        //Contract and Service Information
         <Row className="row row-cols-lg-4 row-cols-md-2 row-cols-1 my-5 container mx-auto">
 
             <Col>
