@@ -2,7 +2,7 @@ import { getAuth, createUserWithEmailAndPassword,updateProfile,onAuthStateChange
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,useHistory,useLocation } from 'react-router-dom';
 
 
 // new user register page
@@ -16,6 +16,11 @@ const Register = () => {
    const [user,setUser]=useState({});
 
    const auth = getAuth();
+
+   const history= useHistory();
+   const location= useLocation();
+
+   const redirect_uri=location.state?.from || '/home';
 
 
     // get user name
@@ -58,6 +63,7 @@ const Register = () => {
         .then(result=>{
             setUser(result.user);
             setUserName();
+            history.push(redirect_uri);
 
         }).catch(error=>{
             

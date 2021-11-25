@@ -2,7 +2,7 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { Link,useHistory,useParams } from 'react-router-dom';
+import { Link,useHistory,useLocation } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
@@ -20,7 +20,7 @@ const Login = () => {
 
 
    const history= useHistory();
-   const location= useParams();
+   const location= useLocation();
 
    const redirect_uri=location.state?.from || '/home';
 
