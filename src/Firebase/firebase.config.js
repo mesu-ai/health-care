@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyD7wpqeLIQMYjUF2vDjNLP1-ciePUUp5DU",
-    authDomain: "heart-care-bd.firebaseapp.com",
-    projectId: "heart-care-bd",
-    storageBucket: "heart-care-bd.appspot.com",
-    messagingSenderId: "675316147005",
-    appId: "1:675316147005:web:5db7cf51d97cef2cfb5b54",
-    measurementId: "G-L017L1N4TQ"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
   };
 
   export default firebaseConfig;
